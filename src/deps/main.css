@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'opensans';
+    /*a name to be used later*/
+    src: url('OpenSans-Regular.ttf');
+    /*URL to font*/
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("OpenSans-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'spacemono';
+    /*a name to be used later*/
+    src: url('SpaceMono-Regular.ttf');
+    /*URL to font*/
+}
+
+@font-face {
+    font-family: "spacemono";
+    src: url("SpaceMono-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'ibmmono';
+    /*a name to be used later*/
+    src: url('IBMPlexMono-Light.ttf');
+    /*URL to font*/
+}
+
+@font-face {
+    font-family: "ibmmono";
+    src: url("IBMPlexMono-Regular.ttf");
+    font-weight: bold;
+}
+
+
+body {
+    font-family: 'ibmmono';
+}
+
+hr {
+    margin-top: 0px;
+}
+
+#header {
+    padding-top: 10px;
+}
+
+#header h2 {
+    margin-bottom: 2px !important;
+    margin-left: 2px !important;
+}
+
+#navbar {
+    position: fixed;
+    /* margin-top: 65.4px; */
+}
+
+.terminal-header {
+    position: relative;
+    background-color: #696969;
+    height: 25px;
+    min-width: 530px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.terminal-body {
+    background-color: #2D3748;
+    height: 250px;
+    min-width: 530px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.terminal-button-red {
+    color: #F56565;
+    padding-left: 10px;
+}
+
+.terminal-button-yellow {
+    color: #FBD28D;
+    margin-left: -2px;
+}
+
+.terminal-button-green {
+    color: #47BB78;
+    margin-left: -2px;
+}
+
+.terminal-title {
+    color: #E6E6E6;
+}
+
+.alignleft {
+    float: left;
+    width: 33.33333%;
+    text-align: left;
+}
+
+.aligncenter {
+    float: left;
+    text-align: center;
+}
+
+.terminal-line {
+    padding: 10px;
+}
+
+.terminal-prompt {
+    color: #68D391;
+}
+
+.terminal-output {
+    color: #E6E6E6;
+}
+
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+}
+
+.timeline .timeline-item {
+    position: relative;
+    /* background-color: #F5F5F5; */
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
+
+.timeline .timeline-item p {
+    font-size: 13px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+}
+
+.active {
+    text-decoration: underline !important;
+}
+
+.education {
+    margin: 10px;
+    padding: 10px;
+}
