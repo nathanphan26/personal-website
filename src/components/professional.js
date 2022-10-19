@@ -1,6 +1,6 @@
 function Professional() {
     return (
-        <div class="col-md-6">
+        <div class="col-md-6 offset-md-2">
                     <section class="py-1">
                         <ul class="timeline">
                             <li class="timeline-item mb-5">
