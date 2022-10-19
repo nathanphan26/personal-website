@@ -3,7 +3,7 @@ function Professional() {
         <div class="col-md-6 offset-md-2">
                     <section class="py-1">
                         <ul class="timeline">
-                            <li class="timeline-item mb-5">
+                            <li class="timeline-item mb-5 fade-in-1">
                                 <h5 class="fw-bold">SmartThings, Software Engineer</h5>
                                 <p class="text-muted mb-2 fw-bold">Aug 2022 - Present</p>
                                 <p class="text-muted">
@@ -11,7 +11,7 @@ function Professional() {
                                 </p>
                             </li>
 
-                            <li class="timeline-item mb-5">
+                            <li class="timeline-item mb-5 fade-in-2">
                                 <h5 class="fw-bold">Q2, Software Engineer</h5>
                                 <p class="text-muted mb-2 fw-bold">Jun 2019 - Jan 2022</p>
                                 <p class="text-muted">
@@ -30,7 +30,7 @@ function Professional() {
                                 </p>
                             </li>
 
-                            <li class="timeline-item mb-5">
+                            <li class="timeline-item mb-5 fade-in-3">
                                 <h5 class="fw-bold">Endorsify, Software Engineer Intern</h5>
                                 <p class="text-muted mb-2 fw-bold">Jan 2019 - Jun 2019</p>
                                 <p class="text-muted">
@@ -47,7 +47,7 @@ function Professional() {
                                 </p>
                             </li>
 
-                            <li class="timeline-item mb-5">
+                            <li class="timeline-item mb-5 fade-in-4">
                                 <h5 class="fw-bold">UC Santa Cruz, Web Developer</h5>
                                 <p class="text-muted mb-2 fw-bold">Aug 2016 - Oct 2017</p>
                                 <p class="text-muted">
