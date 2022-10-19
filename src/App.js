@@ -16,15 +16,15 @@ function App() {
       <div class="container">
         <div class="row">
           <BrowserRouter>
-            <Navbar></Navbar>
-
-            <Routes>
+            {/* <Navbar></Navbar> */}
+            <Professional/>
+            {/* <Routes>
               <Route exact path ="/" element={<About/>}/>
               <Route path ="/professional" element={<Professional/>}/>
               <Route path ="/projects" element={<Projects/>}/>
               <Route path ="/education" element={<Education/>}/>
               
-            </Routes>
+            </Routes> */}
           </BrowserRouter>
         </div>
       </div>
